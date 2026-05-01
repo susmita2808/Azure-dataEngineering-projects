@@ -1,0 +1,15 @@
+{
+	"name": "realtimehybriddatafactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7fe88944-447a-4dfc-a9d1-c92d92ed080b",
+		"tenantId": "86c394e0-5fe3-4ed9-ab00-036b086eeea7"
+	}
+}
