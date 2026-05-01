@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "realtimehybriddatafactory"
+		},
+		"LS_Sink_ADLS_properties_typeProperties_url": {
+			"value": "https://realtimestorageaccount.dfs.core.windows.net/"
+		},
+		"LS_Source_ADLS_properties_typeProperties_url": {
+			"value": "https://realtimestorageaccount.dfs.core.windows.net/"
+		},
+		"trigger_batch_data_properties_PL_Batch_Ingestion_parameters_fileName": {
+			"value": "online_retail.csv"
+		},
+		"trigger_batch_data_properties_PL_Batch_Ingestion_parameters_sourcePath": {
+			"value": "landing/online_retail/"
+		},
+		"trigger_batch_data_properties_PL_Batch_Ingestion_parameters_sinkPath": {
+			"value": "bronze/batch/online_retail/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
