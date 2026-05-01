@@ -1,0 +1,10 @@
+{
+	"name": "LS_Source_ADLS",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://realtimestorageaccount.dfs.core.windows.net/"
+		}
+	}
+}
