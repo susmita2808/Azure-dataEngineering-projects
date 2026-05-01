@@ -1,9 +1,9 @@
 {
-	"name": "pipeline1",
+	"name": "PL_Batch_Ingestion",
 	"properties": {
 		"activities": [
 			{
-				"name": "PL_Batch_Ingestion",
+				"name": "Copy_Batch_To_Bronze",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
