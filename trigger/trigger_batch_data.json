@@ -1,0 +1,29 @@
+{
+	"name": "trigger_batch_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_Batch_Ingestion",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"fileName": "online_retail.csv",
+					"sourcePath": "landing/online_retail/",
+					"sinkPath": "bronze/batch/online_retail/"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 15,
+				"startTime": "2026-05-02T00:35:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
