@@ -6,7 +6,9 @@ This repository contains end-to-end data engineering projects built using Azure 
 
 ---
 
-## Featured Project
+## Featured Project    
+
+Please follow this feature branch for this project--> https://github.com/susmita2808/Azure-dataEngineering-projects/tree/realtime-batch-hybrid
 
 ### 🔹 Real-Time Data Pipeline (Batch + Streaming)
 
