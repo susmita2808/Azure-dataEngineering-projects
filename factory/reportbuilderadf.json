@@ -1,0 +1,15 @@
+{
+	"name": "reportbuilderadf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "73e3ada7-dfd4-498d-97ca-2af2d1f3218e",
+		"tenantId": "86c394e0-5fe3-4ed9-ab00-036b086eeea7"
+	}
+}
