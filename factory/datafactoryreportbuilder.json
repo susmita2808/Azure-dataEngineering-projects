@@ -1,0 +1,15 @@
+{
+	"name": "datafactoryreportbuilder",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3e9f655f-a403-4326-8e58-4e66055c2398",
+		"tenantId": "86c394e0-5fe3-4ed9-ab00-036b086eeea7"
+	}
+}
