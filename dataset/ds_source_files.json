@@ -1,0 +1,19 @@
+{
+	"name": "ds_source_files",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "prtmayadls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "input",
+				"fileSystem": "landing"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

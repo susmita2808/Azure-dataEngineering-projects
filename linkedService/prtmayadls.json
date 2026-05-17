@@ -1,0 +1,11 @@
+{
+	"name": "prtmayadls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://prtmay.dfs.core.windows.net/"
+		}
+	}
+}
