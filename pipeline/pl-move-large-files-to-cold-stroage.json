@@ -67,7 +67,7 @@
 									"referenceName": "singlesource",
 									"type": "DatasetReference",
 									"parameters": {
-										"folderName": "output",
+										"folderName": "input",
 										"fileName": {
 											"value": "@item().name",
 											"type": "Expression"
